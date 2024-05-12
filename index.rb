@@ -1,9 +1,3 @@
-numbers = [1, 2, 3, 4]
+a = Array.new(3) { |n| n % 3 + 1}
 
-sum = 0;
-numbers.each do |n|
-
-  p n
-  sum += 1;
-  p %!合計は#{sum}です!
-end
+p a;
